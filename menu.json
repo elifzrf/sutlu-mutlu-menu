@@ -2,23 +2,55 @@
   "categories": [
     {
       "id": "kahveler",
-      "name": "Kahveler",
-      "products": []
-    },
-    {
-      "id": "soguk-icecekler",
-      "name": "Soğuk İçecekler",
-      "products": []
-    },
-    {
-      "id": "tatlilar",
-      "name": "Tatlılar",
-      "products": []
-    },
-    {
-      "id": "special",
-      "name": "Special",
-      "products": []
-    }
-  ]
-}
+      "name": "Espresso Bazlı Kahveler",
+      "products": [
+        {
+          "name": "Türk Kahvesi (Single)",
+          "description": "Geleneksel Türk kahvesi",
+          "price": 100,
+          "image": "assets/images/turk-kahvesi.jpg"
+        },
+        {
+          "name": "Türk Kahvesi (Double)",
+          "description": "Çift porsiyon Türk kahvesi",
+          "price": 130,
+          "image": "assets/images/turk-kahvesi-double.jpg"
+        },
+        {
+          "name": "Espresso (Single)",
+          "description": "Tek shot espresso",
+          "price": 100,
+          "image": "assets/images/espresso.jpg"
+        },
+        {
+          "name": "Espresso (Double)",
+          "description": "Çift shot espresso",
+          "price": 120,
+          "image": "assets/images/espresso-double.jpg"
+        },
+        {
+          "name": "Espresso Macchiato",
+          "description": "Espresso ve süt köpüğü",
+          "price": 130,
+          "image": "assets/images/macchiato.jpg"
+        },
+        {
+          "name": "Americano",
+          "description": "Espresso ve sıcak su",
+          "price": 120,
+          "image": "assets/images/americano.jpg"
+        },
+        {
+          "name": "Filtre Kahve",
+          "description": "Filtre kahve",
+          "price": 120,
+          "image": "assets/images/filtre.jpg"
+        },
+        {
+          "name": "Flat White",
+          "description": "Yoğun espresso ve süt",
+          "price": 140,
+          "image": "assets/images/flatwhite.jpg"
+        },
+        {
+          "name":
