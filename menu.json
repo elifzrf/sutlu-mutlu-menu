@@ -1,0 +1,24 @@
+{
+  "categories": [
+    {
+      "id": "kahveler",
+      "name": "Kahveler",
+      "products": []
+    },
+    {
+      "id": "soguk-icecekler",
+      "name": "Soğuk İçecekler",
+      "products": []
+    },
+    {
+      "id": "tatlilar",
+      "name": "Tatlılar",
+      "products": []
+    },
+    {
+      "id": "special",
+      "name": "Special",
+      "products": []
+    }
+  ]
+}
