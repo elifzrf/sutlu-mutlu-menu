@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Sütlü Mütlü Başakşehir</title>
+
+<link rel="stylesheet" href="style.css">
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+</head>
+
+<body>
+
+<header>
+
+<div class="logo">
+
+<img src="assets/logo.png" alt="Logo">
+
+<h1>Sütlü Mütlü</h1>
+
+<p>Başakşehir</p>
+
+</div>
+
+</header>
+
+<div class="language">
+
+<button onclick="changeLanguage('tr')">🇹🇷 Türkçe</button>
+
+<button onclick="changeLanguage('en')">🇬🇧 English</button>
+
+<button onclick="changeLanguage('ar')">🇸🇦 العربية</button>
+
+</div>
+
+<div class="search">
+
+<input
+type="text"
+id="searchInput"
+placeholder="Menüde Ara..."
+onkeyup="searchProduct()">
+
+</div>
+
+<div class="categories">
+
+<button>Kahveler</button>
+
+<button>Soğuk İçecekler</button>
+
+<button>Tatlılar</button>
+
+<button>Special</button>
+
+</div>
+
+<section class="menu">
+
+<div class="card">
+
+<img src="assets/images/placeholder.jpg">
+
+<h2>Ice Latte</h2>
+
+<p>Espresso ve süt</p>
+
+<h3>160 ₺</h3>
+
+</div>
+
+<div class="card">
+
+<img src="assets/images/placeholder.jpg">
+
+<h2>San Sebastian</h2>
+
+<p>Orijinal Tarif</p>
+
+<h3>250 ₺</h3>
+
+</div>
+
+<div class="card">
+
+<img src="assets/images/placeholder.jpg">
+
+<h2>Sütlü Kadayıf</h2>
+
+<p>Fıstıklı</p>
+
+<h3>270 ₺</h3>
+
+</div>
+
+</section>
+
+<script src="script.js"></script>
+
+</body>
+
+</html>
